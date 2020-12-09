@@ -1,6 +1,6 @@
+from tracker.configs import DETECTOR_CHECKPOINT_PATH
 from .ssd300.network import get_network as get_network_300
 from .ssd512.network import get_network as get_network_512
-from tracker.configs import DETECTOR_CHECKPOINT_PATH
 
 
 def get_network(num_classes, architecture, train=True):

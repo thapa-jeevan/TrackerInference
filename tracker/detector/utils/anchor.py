@@ -2,6 +2,7 @@ import itertools
 import math
 
 import tensorflow as tf
+
 from tracker.detector.configs.anchor import RATIOS, SCALES, FM_SIZES
 
 

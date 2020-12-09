@@ -1,10 +1,6 @@
-import os
-
 from tensorflow.python.keras import backend
 from tensorflow.python.keras import layers
 from tensorflow.python.keras.engine import training
-
-from tracker.configs.settings import WEIGHTS_DIR
 
 
 def _make_divisible(v, divisor, min_value=None):

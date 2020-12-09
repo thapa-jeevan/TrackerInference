@@ -1,7 +1,7 @@
 from tensorflow.python.keras import layers, initializers, models
 
-from .backbone import get_backbone
 from tracker.detector.configs.dataset import NO_CLASSES
+from .backbone import get_backbone
 
 initializer = initializers.TruncatedNormal(mean=0.0, stddev=0.03)
 

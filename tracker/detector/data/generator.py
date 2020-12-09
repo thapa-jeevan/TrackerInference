@@ -51,7 +51,7 @@ class DataGenerator(object):
             categories: list
 
         """
-        rel_img_path, _, bboxes, _, categories = row_data
+        rel_img_path, bboxes, _, categories, height, width = row_data
         img_path = os.path.join(self.img_dir, rel_img_path)
         img = Image.open(img_path)
 
