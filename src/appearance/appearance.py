@@ -3,9 +3,9 @@ import numpy as np
 import torch
 import torchvision.transforms as transforms
 
-PATCH_SIZE = (128, 64, 3)
+PATCH_SIZE = (128, 128, 3)
 PATCH_BATCH_SIZE = 4
-CHECKPOINT_APPEARANCE = 'checkpoints/appearance/resnet-10-checkpoint'
+CHECKPOINT_APPEARANCE = 'checkpoints/appearance/resnet16-veri'
 
 
 def get_model():
